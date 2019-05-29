@@ -1,0 +1,9 @@
+instance_type		=	"t2.medium"
+key_name		=	"mywindow"
+ami			=	"ami-0f390623ffaa2d492"    #Use Centos7  image
+vpc_id			=	"vpc-d29f4daa"
+user			=	"centos"
+ssh_key_location	=	"/ssh_keys/mywindow"       #Import pub key pair to aws as "terraform"
+zone_id			=	"Z1UZR3RR3CRQJJ"	   #Add hosted DNS zone ID here
+domain			=	"mygettech.com"
+region = "us-west-2a"
